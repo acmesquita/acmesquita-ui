@@ -12,7 +12,7 @@ Projeto inspirado no [vídeo](https://www.youtube.com/watch?v=j0MCdrqN8nU) com o
 
 ```js
 
-import { Button } from 'acmesquita-ui/dist/src';
+import { Button } from 'acmesquita-ui';
 
 <Button>Default</Button>
 <Button outline>Outline</Button>

@@ -1,11 +1,7 @@
 node_modules
-src
+src/
 tsconfig.json
 
 .github
-.git
-.gitignore
-
-*.log
-
-__test__
+__tests__
+yarn-error.log

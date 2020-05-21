@@ -1,8 +1,8 @@
 {
   "name": "acmesquita-ui",
-  "version": "1.0.1",
+  "version": "1.0.6",
   "author": "Catharina Mesquita",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
   "license": "MIT",
   "scripts": {
     "storybook": "start-storybook -p 6543",
