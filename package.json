@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "storybook": "start-storybook -p 6543",
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "build-storybook": "build-storybook -c .storybook -o .out"
   },
   "devDependencies": {
     "@storybook/addon-centered": "^5.3.18",
