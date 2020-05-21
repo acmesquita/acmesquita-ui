@@ -1,0 +1,11 @@
+node_modules
+src
+tsconfig.json
+
+.github
+.git
+.gitignore
+
+*.log
+
+__test__
