@@ -1,10 +1,12 @@
 {
   "name": "storybook-example",
   "version": "1.0.0",
+  "author": "Catharina Mesquita",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
-    "storybook": "start-storybook -p 6543"
+    "storybook": "start-storybook -p 6543",
+    "build": "tsc -p ."
   },
   "devDependencies": {
     "@storybook/addon-centered": "^5.3.18",
