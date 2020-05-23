@@ -1,6 +1,6 @@
 {
   "name": "acmesquita-ui",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "author": "Catharina Mesquita",
   "main": "dist/src/index.js",
   "license": "MIT",
