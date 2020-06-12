@@ -3,7 +3,7 @@ const path = require("path");
 module.exports = {
   webpackFinal: async (config) => {
     config.module.rules.push({
-      test: /\.(ts|tsx)$/,
+      test: /\.(ts|tsx|scss)$/,
       include: path.resolve(__dirname, ".."),
       use: [
         {
@@ -14,7 +14,7 @@ module.exports = {
           options: {
             tsconfigPath: path.resolve(__dirname, "..", "tsconfig.json"),
           },
-        },
+        }
       ],
     });
     config.resolve.extensions.push(".ts", ".tsx");
