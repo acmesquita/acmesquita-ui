@@ -8,3 +8,5 @@ export { TableHeaderDefault } from './components/TableHeaderDefault';
 export { TableCellDefault } from './components/TableCellDefault';
 export { TableBodyDefault } from './components/TableBodyDefault';
 export { TableRowDefault } from './components/TableRowDefault';
+
+export { Page } from './components/Page';
