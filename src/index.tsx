@@ -10,3 +10,5 @@ export { TableBodyDefault } from './components/TableBodyDefault';
 export { TableRowDefault } from './components/TableRowDefault';
 
 export { Page } from './components/Page';
+
+export { Link } from './components/Link';
