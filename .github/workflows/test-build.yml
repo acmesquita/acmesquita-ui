@@ -23,6 +23,8 @@ jobs:
     - uses: actions/checkout@v2
 
     # Runs a single command using the runners shell
+    - name: config git user
+      run: git config --global user.email "catha.ana.1994@gmail.com" && git config --global user.name "Catharina Mesquita"
     - name: Run new branch version
       run: git checkout -b version
 
