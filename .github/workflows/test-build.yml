@@ -45,7 +45,7 @@ jobs:
       run: git add . && git commit -m 'Nova versão'
       
     - name: mergiando nova versão para dist
-      run: git checkout dist && git merge version
+      run: git checkout origin/dist && git merge version
     
     - name: publicando a dist
       run: git push origin dist
