@@ -52,5 +52,5 @@ jobs:
       run: git fetch --all && git branch dist && git merge version
     
     - name: publicando a dist
-      run: git push origin dist
+      run: git push origin dist --force
     
