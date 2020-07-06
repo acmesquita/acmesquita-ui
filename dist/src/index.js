@@ -22,3 +22,5 @@ var TableRowDefault_1 = require("./components/TableRowDefault");
 Object.defineProperty(exports, "TableRowDefault", { enumerable: true, get: function () { return TableRowDefault_1.TableRowDefault; } });
 var Page_1 = require("./components/Page");
 Object.defineProperty(exports, "Page", { enumerable: true, get: function () { return Page_1.Page; } });
+var Link_1 = require("./components/Link");
+Object.defineProperty(exports, "Link", { enumerable: true, get: function () { return Link_1.Link; } });
