@@ -25,6 +25,7 @@ jobs:
     # Runs a single command using the runners shell
     - name: config git user
       run: git config --global user.email "catha.ana.1994@gmail.com" && git config --global user.name "Catharina Mesquita"
+      
     - name: Run new branch version
       run: git checkout -b version
 
@@ -48,7 +49,7 @@ jobs:
       run: git add . && git commit -m 'Nova versão'
       
     - name: mergiando nova versão para dist
-      run: git pull && git branch dist && git merge version
+      run: git fetch --all && git branch dist && git merge version
     
     - name: publicando a dist
       run: git push origin dist
