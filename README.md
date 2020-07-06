@@ -6,6 +6,10 @@ Projeto inspirado no [vídeo](https://www.youtube.com/watch?v=j0MCdrqN8nU) com o
 
 ```
   yarn add acmesquita-ui
+  
+  or
+  
+  GIT_SSH_COMMAND='ssh -i ~/.ssh/custom_ident' npm install "git+ssh://git@github.com:acmesquita/acmesquita-ui.git#dist"
 ```
 
 ### Utilizando
