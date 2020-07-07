@@ -6,6 +6,10 @@ Projeto inspirado no [vídeo](https://www.youtube.com/watch?v=j0MCdrqN8nU) com o
 
 ```
   yarn add acmesquita-ui
+  
+  or
+  
+  yarn add "git+ssh://git@github.com:acmesquita/acmesquita-ui.git#dist"
 ```
 
 ### Utilizando
