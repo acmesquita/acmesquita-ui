@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@material-ui/core": "^4.10.2",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "polished": "^3.6.3",
     "sass-loader": "^8.0.2",
     "styled-components": "^5.1.0"
